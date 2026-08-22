@@ -14,15 +14,53 @@
 
     body {
       min-height: 100vh;
+      background-color: #000;
       background-image: url("page1_alsace.png");
-      background-size: cover;
+      background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      font-family: Arial, sans-serif;
+    }
+
+    .contenu {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px;
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    a {
+      color: white;
+      font-weight: bold;
     }
   </style>
 </head>
 
 <body>
+  <div class="contenu">
+    <h1>Gestion du Compte</h1>
+
+    <p>
+      Gestion du Compte est une application Android permettant de faciliter
+      le suivi et la gestion d'un compte personnel.
+    </p>
+
+    <p>
+      L'application permet à l'utilisateur de se connecter avec son propre
+      compte Google afin d'accéder aux fonctionnalités associées.
+    </p>
+
+    <h2>Confidentialité</h2>
+
+    <p>
+      Consultez notre
+      <a href="confidentialite.html">Politique de confidentialité</a>.
+    </p>
+
+    <p>© 2026 Gestion du Compte</p>
+  </div>
 </body>
 </html>
